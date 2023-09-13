@@ -1,0 +1,12 @@
+server:
+  port: 9999
+
+spring:
+  main:
+    banner-mode: OFF
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
+logging:
+  file:
+    name: log/pratical-java.log
